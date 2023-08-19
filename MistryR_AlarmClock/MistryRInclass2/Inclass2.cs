@@ -1,10 +1,4 @@
-/*
- * Name of project: InClass2_MistryR1
- * Purpose: To create an alarm clock
- *
- * Revision Histrory:
- *      Rutvi Mistry, 2023.05.16: Created
- */
+
 using System.Security.Claims;
 using System.Windows.Forms;
 
@@ -23,7 +17,7 @@ namespace MistryRInclass2
             dayLabel.Text = currentDate.ToString("dddd");
 
             // Set the current date in the date label
-            dateLabel.Text = currentDate.ToString("dd MMMM , yyyy");
+            dateLabel.Text = currentDate.ToString("dd MMMMÂ ,Â yyyy");
 
             //to start timer
             timer.Start();
